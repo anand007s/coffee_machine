@@ -14,7 +14,7 @@ public class CoffeeMachine {
     static void displayBasicInfo() {
         while (!("exit".equalsIgnoreCase(selectedOption))) {
             System.out.print("CHOOSING\n" +
-                    "Write action (buy, fill, take, remaining, exit : ");
+                    "Write action (buy, fill, take, remaining, exit : )");
             selectedOption = scanner.next();
             switch (selectedOption) {
                 case "remaining" :
